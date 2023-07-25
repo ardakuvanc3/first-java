@@ -1,0 +1,12 @@
+public class İlkDers {
+  
+  public static void main(String[] args){
+    int interest = (1000*5)/100;
+    int fist_year = 1000;
+    int second_year = 1000+interest;
+    int third_year = 1000+interest*2;
+    System.out.println(fist_year);
+    System.out.println(second_year);
+    System.out.println(third_year);
+  }
+}
